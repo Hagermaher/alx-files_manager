@@ -46,7 +46,7 @@ class DBClient {
   }
 
   /**
-   * Retrieves a reference to the `users`
+   * Retrieves a reference to the `users` collection.
    * @returns {Promise<Collection>}
    */
   async usersCollection() {
@@ -54,7 +54,7 @@ class DBClient {
   }
 
   /**
-   * Retrieves a reference to the `file`
+   * Retrieves a reference to the `files` collection.
    * @returns {Promise<Collection>}
    */
   async filesCollection() {
